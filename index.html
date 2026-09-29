@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smash Burger Blanes · Hamburguesas smash halal · Passeig de Dintre</title>
+<meta name="description" content="Smash Burger Blanes, Passeig de Dintre 34: hamburguesas smash de ternera Angus, pollo y vegetal, cócteles y terraza bajo los plátanos. Halal. Abierto todos los días desde las 12:00. Tel. 972 07 46 25.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="nav__logo" href="#top">SMASH<span>BURGER · BLANES</span></a>
+  <nav class="nav__links" aria-label="Principal"><a href="#plano">El plano</a><a href="#specs">La carta</a><a href="#terraza">Terraza</a><a href="#visita">Visítanos</a></nav>
+  <a class="nav__cta" href="tel:+34972074625">972 07 46 25</a>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero__txt">
+    <p class="tag">Plano nº 34 · Passeig de Dintre · Halal food</p>
+    <h1 class="hero__title">Smash<br>Burger</h1>
+    <p class="hero__lead">Hamburguesas jugosas, con carne aplastada a la plancha hasta que se forma la costra. Ingeniería de la buena, frente a los plátanos del Passeig de Dintre.</p>
+    <div class="hero__row">
+      <a class="btn" href="#plano">Ver el despiece</a>
+      <span class="halal"><b>حلال</b>Halal<br>certificado</span>
+    </div>
+  </div>
+  <figure class="hero__img"><img src="assets/ig/p07.jpg" alt="Tres smash burgers sobre la mesa"><figcaption>Fig. 1 · Producto terminado</figcaption></figure>
+  <div class="titleblock" aria-hidden="true"><span>PROYECTO</span><b>SMASH BURGER</b><span>ESCALA 1:1 · HOJA 01 · BLANES</span></div>
+</section>
+
+<!-- ===== el plano: despiece que se monta y se aplasta ===== -->
+<section class="plano" id="plano">
+  <div class="plano__pin">
+    <p class="plano__step" id="step">01 · Despiece</p>
+    <svg class="burger" id="burger" viewBox="0 0 760 720" role="img" aria-label="Despiece de una smash burger">
+      <g id="press" class="press"><rect x="170" y="-10" width="320" height="26" rx="4"/><rect x="310" y="-150" width="40" height="150" rx="6"/></g>
+      <g class="layer" data-y="0"><path d="M150 150 Q330 20 510 150 L510 170 Q330 190 150 170 Z" class="bun"/><g class="seeds"><ellipse cx="260" cy="110" rx="8" ry="4"/><ellipse cx="320" cy="88" rx="8" ry="4" transform="rotate(20 320 88)"/><ellipse cx="380" cy="92" rx="8" ry="4"/><ellipse cx="430" cy="118" rx="8" ry="4" transform="rotate(-20 430 118)"/><ellipse cx="300" cy="130" rx="8" ry="4"/><ellipse cx="360" cy="120" rx="8" ry="4" transform="rotate(30 360 120)"/></g><line x1="515" y1="120" x2="600" y2="120" class="lead"/><text x="608" y="116" class="lab">Pan brioche</text><text x="608" y="134" class="dim">o pan normal</text></g>
+      <g class="layer" data-y="1"><path d="M160 200 q20 -14 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 l0 10 L160 210 Z" class="sauce"/><line x1="505" y1="204" x2="600" y2="204" class="lead"/><text x="608" y="200" class="lab">Salsa</text><text x="608" y="218" class="dim">de la casa</text></g>
+      <g class="layer" data-y="2"><path d="M140 262 q25 -22 50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 q-10 18 -20 16 L150 278 q-12 2 -10 -16 z" class="lettuce"/><line x1="500" y1="266" x2="600" y2="266" class="lead"/><text x="608" y="270" class="lab">Lechuga</text></g>
+      <g class="layer" data-y="3"><rect x="175" y="318" width="140" height="22" rx="11" class="tomato"/><rect x="330" y="318" width="150" height="22" rx="11" class="tomato"/><line x1="485" y1="329" x2="600" y2="329" class="lead"/><text x="608" y="333" class="lab">Tomate</text></g>
+      <g class="layer" data-y="4"><path d="M165 378 L495 378 L495 394 L470 394 Q462 420 452 394 L330 394 Q322 416 312 394 L220 394 Q212 412 204 394 L165 394 Z" class="cheese"/><line x1="500" y1="386" x2="600" y2="386" class="lead"/><text x="608" y="382" class="lab">Cheddar</text><text x="608" y="400" class="dim">fundido</text></g>
+      <g class="layer patty" data-y="5"><rect x="160" y="438" width="340" height="48" rx="20" class="meat"/><path d="M190 452 l30 0 M250 470 l40 0 M320 450 l30 0 M380 472 l50 0 M440 455 l25 0" class="crust"/><line x1="505" y1="462" x2="600" y2="462" class="lead"/><text x="608" y="458" class="lab">Carne Angus</text><text x="608" y="476" class="dim">100 g · smash</text></g>
+      <g class="layer" data-y="6"><path d="M170 528 q30 -12 60 0 t60 0 t60 0 t60 0 t60 0 l0 8 L170 536 Z" class="onion"/><line x1="495" y1="530" x2="600" y2="530" class="lead"/><text x="608" y="526" class="lab">Cebolla</text><text x="608" y="544" class="dim">caramelizada</text></g>
+      <g class="layer" data-y="7"><path d="M150 580 L510 580 Q510 630 470 636 L190 636 Q150 630 150 580 Z" class="bun"/><line x1="515" y1="606" x2="600" y2="606" class="lead"/><text x="608" y="610" class="lab">Base de pan</text></g>
+      <g id="splat"></g>
+      <line x1="120" y1="60" x2="120" y2="640" class="axis"/><text x="96" y="350" class="dim" transform="rotate(-90 96 350)">EJE DE MONTAJE</text>
+    </svg>
+    <p class="boom" id="boom" aria-hidden="true">SMASH!</p>
+  </div>
+</section>
+
+<!-- ===== especificaciones (la carta) ===== -->
+<section class="sec specs" id="specs">
+  <header class="head">
+    <p class="tag">Especificaciones técnicas</p>
+    <h2 class="big">La carta</h2>
+    <p class="head__lead">Hamburguesas desde <b>8,50 €</b> · Menú con bebida y patatas desde <b>12,90 €</b></p>
+  </header>
+  <div class="sheets">
+    <article class="sheet"><p class="sheet__ref">REF. SB-01</p><h3>Smash Angus</h3><ul><li>Carne Angus 100 g</li><li>Cheddar</li><li>Lechuga</li><li>Salsa de la casa</li><li>Pan brioche o normal</li></ul></article>
+    <article class="sheet"><p class="sheet__ref">REF. SB-02</p><h3>Desmechada</h3><ul><li>Carne desmechada</li><li>Salsa honey barbecue</li><li>Pepinillos</li><li>Lechuga</li><li>Queso de cabra</li></ul></article>
+    <article class="sheet"><p class="sheet__ref">REF. SB-03</p><h3>Pollo crujiente</h3><ul><li>Pechuga de pollo empanada</li><li>Salsa de la casa</li><li>Mayonesa</li><li>Lechuga y tomate</li></ul></article>
+    <article class="sheet"><p class="sheet__ref">REF. SB-04</p><h3>Vegetal</h3><ul><li>Hamburguesa vegetal</li><li>Lechuga y tomate</li><li>Salsa de la casa</li><li>Pan brioche o normal</li></ul></article>
+  </div>
+  <div class="drinks">
+    <div class="drinks__col"><h4>Cócteles</h4><p><span>Sex on the Beach</span><b>8,00</b></p><p><span>Caipiriña</span><b>8,00</b></p><p><span>Sangría ½ litro</span><b>8,00</b></p><p><span>Sangría 1 litro</span><b>14,90</b></p></div>
+    <div class="drinks__col"><h4>Cervezas</h4><p><span>Caña</span><b>2,50</b></p><p><span>Jarra</span><b>3,80</b></p><p><span>Mediana Estrella</span><b>2,70</b></p><p><span>Tostada</span><b>2,80</b></p></div>
+    <div class="drinks__col"><h4>Refrescos y café</h4><p><span>Refrescos</span><b>1,80</b></p><p><span>Café con leche</span><b>1,90</b></p><p><span>Cortado</span><b>1,70</b></p><p><span>Helado</span><b>4,00</b></p></div>
+  </div>
+</section>
+
+<!-- ===== terraza ===== -->
+<section class="terraza" id="terraza">
+  <div class="terraza__grid">
+    <img src="assets/maps/g05.jpg" alt="Terraza de noche bajo los plátanos del Passeig de Dintre">
+    <img src="assets/maps/g04.jpg" alt="Mojito y burger en la mesa">
+    <img src="assets/ig/p03.jpg" alt="Batido de la casa">
+    <img src="assets/maps/g07.jpg" alt="Burgers recién servidas">
+  </div>
+  <div class="terraza__txt">
+    <p class="tag">Zona de pruebas</p>
+    <h2 class="big">Terraza bajo<br>los plátanos</h2>
+    <p>Interior pequeño y acogedor, y una terraza en pleno Passeig de Dintre para cenar al fresco. Burgers, batidos y cócteles hasta medianoche.</p>
+  </div>
+</section>
+
+<!-- ===== reseñas ===== -->
+<section class="sec reviews">
+  <div class="reviews__grid">
+    <blockquote><span class="q">QA · OK</span>«Hamburguesas muy jugosas y con mucho sabor. Ingredientes de calidad y servicio rápido. Las patatas también están muy buenas.»<cite>Usman Safdar · Google ★★★★★</cite></blockquote>
+    <blockquote><span class="q">QA · OK</span>«Las hamburguesas están muy buenas, la atención genial, un sitio agradable para comer.»<cite>Carlos Mosquera · Google ★★★★★</cite></blockquote>
+    <blockquote><span class="q">RATING</span><b class="bigrate">4,4★</b>111 opiniones en Google<cite>y subiendo</cite></blockquote>
+  </div>
+</section>
+
+<!-- ===== visita ===== -->
+<section class="sec visita" id="visita">
+  <div>
+    <p class="tag">Ubicación de obra</p>
+    <h2 class="big">Passeig de Dintre, 34</h2>
+    <a class="phone" href="tel:+34972074625">972 07 46 25</a>
+    <dl class="hours">
+      <div><dt>Dom – Jue</dt><dd>12:00 – 23:30</dd></div>
+      <div><dt>Vie – Sáb</dt><dd>12:00 – 00:30</dd></div>
+    </dl>
+    <div class="hero__row">
+      <a class="btn" href="tel:+34972074625">Llamar</a>
+      <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&query=Smash+burger+blanes+Passeig+de+Dintre+34" target="_blank" rel="noopener">Cómo llegar</a>
+      <a class="btn btn--ghost" href="https://www.instagram.com/smashburgerblanes34/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <img src="assets/maps/g01.jpg" alt="Fachada de Smash Burger Blanes">
+</section>
+</main>
+
+<footer class="foot">SMASH BURGER BLANES · Halal food · Passeig de Dintre, 34 · Plano nº 34</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
